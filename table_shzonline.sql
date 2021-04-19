@@ -17,4 +17,4 @@ and client.id > '77687'
 GROUP BY microloan.client_id, microloan.date_schedule_payments_received, microloan.full_number, credit_product.name, client.lastname, client.firstname, client.secondname, microloan.loan_state, field_value.stringval, microloan.max_amount, contact.identifier, address.location_type, address.location, address.street, address.house, address.apartment
 ORDER BY microloan.client_id DESC) as t
 
-GROUP BY заключен, client_id, date_added, name, lastname, firstname, secondname, loan_state, stringval, max_amount, identifier
+GROUP BY заключен, client_id, date_added, rname, lastname, firstname, secondname, loan_state, stringval, max_amount, identifier
