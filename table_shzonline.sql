@@ -18,4 +18,4 @@ GROUP BY microloan.client_id, microloan.date_schedule_payments_received, microlo
 ORDER BY microloan.client_id DESC) as t
 
 GROUP BY заключен, client_id, date_added, name, lastname, firstname, secondname, loan_state, stringval, max_amount, identifier
-ORDER BY client_id LIMIT 15653
+ORDER BY client_id LIMIT  100
